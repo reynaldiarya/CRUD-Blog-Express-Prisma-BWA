@@ -1,28 +1,28 @@
-# Express.js CRUD API dengan Prisma
+# Express.js CRUD API with Prisma
 
-Proyek ini merupakan implementasi dari konsep CRUD (Create, Read, Update, Delete) menggunakan Express.js dan Prisma sebagai ORM. Proyek ini juga mencakup pengelolaan routing serta interaksi dengan database sederhana.
+This project is an implementation of the CRUD (Create, Read, Update, Delete) concept using Express.js and Prisma as an ORM. The project also includes routing management as well as interaction with a simple database.
 
-## 📚 Sumber Belajar
-Proyek ini dikembangkan berdasarkan kelas dari BuildWithAngga:
-[Express JS - Membuat CRUD API Blog Post](https://buildwithangga.com/kelas/express-js-membuat-crud-api-blog-post)
+## 📚 Learning Resources
+This project is developed based on classes from BuildWithAngga:
+[Express JS - Building CRUD API Blog Post](https://buildwithangga.com/kelas/express-js-membuat-crud-api-blog-post)
 
-## 🚀 Fitur
-- **Create**: Menambahkan data baru ke database
-- **Read**: Mengambil dan menampilkan data dari database
-- **Update**: Memperbarui data yang sudah ada
-- **Delete**: Menghapus data dari database
-- **Routing**: Mengelola endpoint API dengan Express.js
-- **ORM**: Menggunakan Prisma untuk interaksi dengan database
+## 🚀 Features
+- **Create**: Add new data to the database
+- **Read**: Retrieve and display data from the database
+- **Update**: Update existing data
+- **Delete**: Delete data from the database
+- **Routing**: Managing API endpoints with Express.js
+- **ORM**: Using Prisma for interaction with databases
 
-## 🛠️ Teknologi yang Digunakan
-- **Node.js** - Runtime JavaScript
-- **Express.js** - Framework untuk membangun server
-- **Prisma** - ORM untuk mengelola database
-- **SQLite / PostgreSQL / MySQL** - Database yang bisa digunakan
+## 🛠️ Technologies Used
+- **Node.js** - JavaScript runtime
+- **Express.js** - Framework for building servers
+- **Prisma** - ORM for managing databases
+- **SQLite / PostgreSQL / MySQL** - Databases that can be used
 
-## 🔥 Penggunaan API
-Berikut adalah beberapa endpoint utama:
-- **GET** `/posts` - Mendapatkan semua postingan
-- **POST** `/posts` - Menambahkan postingan baru
-- **PUT** `/posts/:id` - Memperbarui postingan berdasarkan ID
-- **DELETE** `/posts/:id` - Menghapus postingan berdasarkan ID
+## 🔥 API Usage
+Here are some of the main endpoints:
+- **GET** `/posts` - Get all posts
+- **POST** `/posts` - Add new posts
+- **PUT** `/posts/:id` - Update posts by ID
+- **DELETE** `/posts/:id` - Delete posts by ID
